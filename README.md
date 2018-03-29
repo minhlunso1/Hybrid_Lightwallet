@@ -6,7 +6,7 @@ The Ethereum Wallet which supports Ether and its tokens.
 
 This wallet follows the light network concept and allows the users to manage wallet accounts with keystore, generate address, unlock accounts, transfer ether as well as token based on Ethereum token standard.   
 
-<img width="600" height="500" src="app.png">
+![screenshot](app.png)
 
 ## Platform and Dependency
 - ReactJS
@@ -23,6 +23,7 @@ Please pull the project then run `npm install`.
 
 ### Android
 **The NodeJS ConsenSys/eth-lightwallet library is not supported below Android 7.0**
+
 Install Cordova `npm install -g cordova`
 
 Build the project `npm run build`
