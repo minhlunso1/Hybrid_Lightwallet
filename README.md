@@ -1,15 +1,14 @@
 # Minh LightWallet.
 **The mobile Ethereum wallet application demo**
 
-
-<p align="center">
-  <img src="app.png">
-</p>
-
 ## App Concept
 The Ethereum Wallet which supports Ether and its tokens.
 
 This wallet follows the light network concept and allows the users to manage wallet accounts with keystore, generate address, unlock accounts, transfer ether as well as token based on Ethereum token standard.   
+
+<p align="center">
+  <img src="app.png">
+</p>
 
 ## Platform and Dependency
 - ReactJS
