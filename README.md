@@ -40,7 +40,9 @@ When the Cordova deployment is done, there  would be an Android folder. It could
 
 ### Web
 Go with `npm start`.
+
 The web app will run at http://localhost:7000.
+
 This port could be replaced in webpack configuration.
 
 ## Usage
