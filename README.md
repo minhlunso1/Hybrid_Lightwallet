@@ -32,11 +32,26 @@ Build the project `npm run build`
 
 Add Cordova platform `cordova platform add android`
 
-To deploy just run `cordova run android`. However, please configure Android environment first. Take a look at [this](https://cordova.apache.org/docs/en/latest/guide/platforms/android/).
+When the Cordova deployment is done, there  would be an Android folder. It could be built with Android Studio.
+
+To run on Android emulator directly, please turn on emulator then execute `cordova run android`. However, please configure Android environment first. Take a look at [this](https://cordova.apache.org/docs/en/latest/guide/platforms/android/).
 
 The execution still use webpack in mobile deployment.
 
-When the Cordova deployment is done, there  would be an Android folder. It could be built with Android Studio.
+###iOS
+**The NodeJS ConsenSys/eth-lightwallet library is not supported below iOS 9**
+
+Install Cordova `npm install -g cordova`
+
+Build the project `npm run build`
+
+Add Cordova platform `cordova platform add ios`
+
+Please install Xcode. Take a look at [this](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/).
+
+When the Cordova deployment is done, there  would be an ios folder. It could be built with Xcode.
+
+To run on iOS directly, please turn on emulator then execute `cordova run ios`.
 
 ### Web
 Go with `npm start`.
