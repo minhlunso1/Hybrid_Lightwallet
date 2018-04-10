@@ -38,7 +38,7 @@ To run on Android emulator directly, please turn on emulator then execute `cordo
 
 The execution still use webpack in mobile deployment.
 
-###iOS
+### iOS
 **The NodeJS ConsenSys/eth-lightwallet library is not supported below iOS 9**
 
 Install Cordova `npm install -g cordova`
