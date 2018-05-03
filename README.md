@@ -63,4 +63,4 @@ This port could be replaced in webpack configuration.
 ## Usage
 To create a wallet which is also known as a keystore, there are 2 elements which are required in Ethereum blockchain. The passphrase and mnemonic keys. Need these elements to unlock the wallet too.
 
-The Ethereum network in this application is Ropsten. The configuration could be replaced in `util/Settings.js`.
+The Ethereum network in this application is Rinkeby and Main Network. The configuration could be replaced in `util/Settings.js`.
